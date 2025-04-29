@@ -19,10 +19,7 @@ $BackupServer = "\\\\SERVER"<br>
 Exemple :<br>
 \\\\NAS01\\Backup\\GPO\\DC01\\2025-04-29<br>
 - Supprime toutes les sauvegardes de plus 15 jours :<br>
-$DeleteFolderFiles = (Get-Date).AddDays(-15)## SYNOPSIS
-Effectue une sauvegarde de tous les GPOs et gère leur rétention.<br>
-Date    : 2025-04-29<br>
-Version : 2.0<br>
+$DeleteFolderFiles = (Get-Date).AddDays(-15)<br>
 
 ## RECOMMANDATION
 Fonctionne trés bien avec un compte Gmsa (Group Managed Service Accounts)<br>
