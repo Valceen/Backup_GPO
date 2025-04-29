@@ -1,5 +1,5 @@
 .SYNOPSIS<br>
-    Effectue une sauvegarde de tous les GPOs et gère leur rétention.
+    Effectue une sauvegarde de toutes les GPOs et gère leur rétention.
     Date    : 2025-04-29
     Version : 2.0
 
@@ -22,7 +22,6 @@
     Supprime toutes les sauvegardes de plus 15 jours :<br>
     $DeleteFolderFiles = (Get-Date).AddDays(-15)
 
-.LICENCE  
-
+.LICENCE<br>
     GNU General Pulic Licence V3.0
     https://github.com/Valceen/
