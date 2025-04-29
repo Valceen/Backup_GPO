@@ -1,27 +1,20 @@
-**.SYNOPSIS<br>**
-    [Texte]Effectue une sauvegarde de toutes les GPOs et gère leur rétention.<br>
-    Date    : 2025-04-29<br>
-    Version : 2.0<br>
+# SYNOPSIS
 
-**.DESCRIPTION<br>**
-    Sauvegarde tous les GPOs dans un dossier nommé par la date du jour et les classe par GUID.<br>
-    Supprime ensuite les sauvegardes datant de plus de 15 jours, selon configuration.
+Effectue une sauvegarde de tous les GPOs et gère leur rétention.
+Date    : 
+Version : 2.0
 
-**.NOTES<br>**
-    Prérequis :<br>
-    - Module PowerShell pour les GPOs.<br>
-    - Droits adéquats pour effectuer des sauvegardes.<br>
+## DESCRIPTION
 
-**.FONCTIONNEMENT<br>**
-    - Changer le nom du serveur :<br>
-    $BackupServer = "\\\\SERVER"<br>
-    - Fait un sauvegarde dans le répertoire :<br> 
-    \\\\SERVEUR\\GPO\\NOM_DE_MACHINE\\DATE (au format yyyy-mm-jj)<br>
-    Exemple :<br>
-    \\\\NAS01\\Backup\\GPO\\DC01\\2025-04-29<br>
-    - Supprime toutes les sauvegardes de plus 15 jours :<br>
-    $DeleteFolderFiles = (Get-Date).AddDays(-15)
+Sauvegarde tous les GPOs dans un dossier nommé par la date du jour et les classe par GUID.
+Supprime ensuite les sauvegardes datant de plus de 15 jours, selon configuration.
 
-**.LICENCE<br>**
-    GNU General Pulic Licence V3.0<br>
-    https://github.com/Valceen/<br>
+## PREREQUIS
+
+Module PowerShell pour les GPOs.
+Droits adéquats pour effectuer des sauvegardes.
+
+## Licence
+
+GNU General Public Licence V3.0
+https://github.com/Valceen/
