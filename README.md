@@ -1,6 +1,6 @@
 .SYNOPSIS
     Effectue une sauvegarde de tous les GPOs et gère leur rétention.
-    Date    : 
+    Date    : 2025-04-29
     Version : 2.0
 
 .DESCRIPTION
@@ -14,11 +14,11 @@
 
 .FONCTIONNEMENT
     Changer le nom du serveur :
-    $BackupServer = "\\\\SERVER"
+    $BackupServer = "\\\\SERVER"<br>
     Fait un sauvegarde dans le répertoire :
-    \\\\SERVEUR\\GPO\\NOM_DE_MACHINE\\DATE (au format yyyy-mm-jj)
+    \\\\SERVEUR\\GPO\\NOM_DE_MACHINE\\DATE (au format yyyy-mm-jj)<br>
     Exemple :
-    \\\\NAS01\\Backup\\GPO\\DC01\\2025-04-29
+    \\\\NAS01\\Backup\\GPO\\DC01\\2025-04-29<br>
     Supprime toutes les sauvegardes de plus 15 jours :
     $DeleteFolderFiles = (Get-Date).AddDays(-15)
 
