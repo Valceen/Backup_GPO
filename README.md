@@ -18,7 +18,7 @@
     Fait un sauvegarde dans le répertoire :
     \\SERVEUR\GPO\NOM_DE_MACHINE\DATE (au format yyyy-mm-jj)
     Exemple :
-    \\NS01\Backup\GPO\DC01\2025-04-29
+    \\NAS01\Backup\GPO\DC01\2025-04-29
     Supprime toutes les sauvegardes de plus 15 jours :
     $DeleteFolderFiles = (Get-Date).AddDays(-15)
 
