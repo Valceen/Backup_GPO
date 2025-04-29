@@ -12,13 +12,17 @@
     - Module PowerShell pour les GPOs.
     - Droits adéquats pour effectuer des sauvegardes.
 
-.FONCTIONNEMENT<br>
+.FONCTIONNEMENT  
+
     Changer le nom du serveur :
-    $BackupServer = "\\\\SERVER"<br>
-    Fait un sauvegarde dans le répertoire :
-    \\\\SERVEUR\\GPO\\NOM_DE_MACHINE\\DATE (au format yyyy-mm-jj)<br>
+    $BackupServer = "\\\\SERVER"  
+    
+    Fait un sauvegarde dans le répertoire :  
+    
+    \\\\SERVEUR\\GPO\\NOM_DE_MACHINE\\DATE (au format yyyy-mm-jj)  
+    
     Exemple :
-    \\\\NAS01\\Backup\\GPO\\DC01\\2025-04-29<br>
+    \\\\NAS01\\Backup\\GPO\\DC01\\2025-04-29
     Supprime toutes les sauvegardes de plus 15 jours :
     $DeleteFolderFiles = (Get-Date).AddDays(-15)
 
