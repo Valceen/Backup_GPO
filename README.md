@@ -1,3 +1,4 @@
+<div align="left">
 .SYNOPSIS<br>
     Effectue une sauvegarde de toutes les GPOs et gère leur rétention.
     Date    : 2025-04-29
@@ -25,3 +26,4 @@
 .LICENCE<br>
     GNU General Pulic Licence V3.0
     https://github.com/Valceen/
+</div>
