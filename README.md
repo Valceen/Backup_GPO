@@ -24,7 +24,7 @@ Effectue une sauvegarde de tous les GPOs et gère leur rétention.<br>
 Date    : 2025-04-29<br>
 Version : 2.0<br>
 
-## RECOMMANATION
+## RECOMMANDATION
 Fonctionne trés bien avec un compte Gmsa (Group Managed Service Accounts)<br>
 
 Nécéssite :<br>
