@@ -13,12 +13,16 @@
     - Droits adéquats pour effectuer des sauvegardes.
 
 .FONCTIONNEMENT<br>
+
     Changer le nom du serveur :<br>
     $BackupServer = "\\\\SERVER"<br>
+    
     Fait un sauvegarde dans le répertoire :<br> 
     \\\\SERVEUR\\GPO\\NOM_DE_MACHINE\\DATE (au format yyyy-mm-jj)<br>
+    
     Exemple :<br>
     \\\\NAS01\\Backup\\GPO\\DC01\\2025-04-29<br>
+    
     Supprime toutes les sauvegardes de plus 15 jours :<br>
     $DeleteFolderFiles = (Get-Date).AddDays(-15)
 
